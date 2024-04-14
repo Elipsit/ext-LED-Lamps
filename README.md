@@ -12,7 +12,11 @@
  There are many different types of WS2812 leds avaliable in differnt pacakages from 5050SMD to COB. From subjective testing i've found using an led strip with a density between 60 LEDs/meter to 1600/LEDs per meter is a good range.
 
  30 LEDs/meter has too much space between LEDs and results in courser color transitions
+ Here is an example of a lamp made with 30LED/m
  ![30LED/meter](pics/30led-meter.HEIC)
+
+Here is a comparason of the LED density options:
+ ![30LED/meter](pics/ws2812_5050SMD.png)
 
 
  # BOM
@@ -37,7 +41,7 @@ Here is a BOM for a set of 3 V1 lamps
 
 | Item Name      | Quantity | Description                          | Price          | URL                            |
 |----------------|----------|--------------------------------------|----------------|--------------------------------|
-| WS2812B 5mft   | 1        | WS2812B RGB 16.4FT 300Pixels/m       | $22.00         | https://a.co/d/akVGvSk         |
+| WS2812B 5m     | 1        | WS2812B RGB 16.4FT 300Pixels/m       | $22.00         | https://a.co/d/akVGvSk         |
 | ESP8266 3 pack | 1 (3pack)| ESP8266 ESP-12F Type-C USB           | $11.00         | https://a.co/d/6nqaI22         |
 | 3 pin con      | 1 (10pck)| 10 Pairs 3pin JST SM Female/Male Con | $7.00          | https://a.co/d/aJJjx0d         |
 | 1" x 10ft pcv  | 3        | 1 in. x 10 ft. White PVC Schedule 40 | $24.00 ($8 x3) | https://tinyurl.com/MainPipe   |
@@ -86,6 +90,26 @@ I suggest using 100 LED/meter or 160 LED/meter strips
    d. wemos_top.stl
   ![pipes](pics/print_files.HEIC)
 
+4. Spray paint the joined pipe section
 
- ## Stackup
- ![Stackup](pics/IMG_0200.HEIC)
+5. glue the plug-lamp v1.stl plugs on each of the 3 pipe ends
+
+6. Solder wires onto the esp8266 and install it into the plastic housing. Note you need to attache the lid before you solder the wires.
+   a. Connect Red to 5V, Green to D4, White to GND
+![pipes](pics/solder_wires.HEIC)
+
+7. use superglue to connect the shim to the main plastic
+   
+![pipes](pics/connect_shim.HEIC)
+
+8. Drill a small pilot hole in the pole, then use a screw to attache the esp8266 to the pole
+   
+![pipes](pics/screwpole.HEIC)
+
+This is how the stackup should look
+   
+![pipes](pics/final_assembly.HEIC)
+
+CAD model for reference:
+
+![Stackup](pics/IMG_0200.HEIC)
