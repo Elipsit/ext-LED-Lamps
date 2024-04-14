@@ -13,10 +13,10 @@
 
  30 LEDs/meter has too much space between LEDs and results in courser color transitions
  Here is an example of a lamp made with 30LED/m
- ![30LED/meter](pics/30led-meter.HEIC)
+ ![30LED meter](pics/30led-meter.HEIC)
 
 Here is a comparason of the LED density options:
- ![30LED/meter](pics/ws2812_5050SMD.png)
+ ![LED options](pics/ws2812_5050SMD.png)
 
 
  # BOM
