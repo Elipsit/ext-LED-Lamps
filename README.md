@@ -4,13 +4,16 @@
  # BOM
 
 This is the BOM for a single lamp
- | Name | Description | Qty | Cost | URL |
-|----------|----------|----------|----------|
-| WS2812B LEDs | Row 1 Col 2 | Row 1 Col 3 | Row 1 Col 3 |
-| Row 2 Col 1 | Row 2 Col 2 | Row 2 Col 3 | Row 1 Col 3 |
+
+| Item Name      | Quantity | Description                   | Price   |
+|----------------|----------|-------------------------------|---------|
+| Component A    | 10       | Description of Component A    | $10.00  |
+| Component B    | 5        | Description of Component B    | $5.00   |
+| Component C    | 2        | Description of Component C    | $8.00   |
+
 
 
  # Assembly Instructions
 
  ## Stackup
- ![Stackup](IMG_0200.HEIC)
+ ![Stackup](pics/IMG_0200.HEIC)
