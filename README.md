@@ -12,7 +12,7 @@
  There are many different types of WS2812 leds avaliable in differnt pacakages from 5050SMD to COB. From subjective testing i've found using an led strip with a density between 60 LEDs/meter to 1600/LEDs per meter is a good range.
 
  30 LEDs/meter has too much space between LEDs and results in courser color transitions
- Here is an example of a lamp made with 30LED/m
+ Here is an example of a lamp made with 30LED per meter:
  ![30LEDmeter](pics/30ledmeter.HEIC)
 
 Here is a comparason of the LED density options:
