@@ -12,8 +12,6 @@
  There are many different types of WS2812 leds avaliable in differnt pacakages from 5050SMD to COB. From subjective testing i've found using an led strip with a density between 60 LEDs/meter to 1600/LEDs per meter is a good range.
 
  30 LEDs/meter has too much space between LEDs and results in courser color transitions
- Here is an example of a lamp made with 30LED per meter:
- ![30LEDmeter](pics/30ledmeter.HEIC)
 
 Here is a comparason of the LED density options:
  ![LED options](pics/ws2812_5050SMD.png)
@@ -113,3 +111,8 @@ This is how the stackup should look
 CAD model for reference:
 
 ![Stackup](pics/IMG_0200.HEIC)
+
+9. Install WLED on the esp8266
+   a. use the following weblink to install https://install.wled.me/
+   b. assign GPIO 2 to be the driving pin for the leds
+   c. set the led quantity to align with the number of leds you have
