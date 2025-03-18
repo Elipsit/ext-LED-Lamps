@@ -77,7 +77,7 @@ I suggest using 100 LED/meter or 160 LED/meter strips
   a. 1 x 5ft section
   b. 2 x 1 ft sections
 
-  ![pipes](pics/Pipes.HEIC)
+  ![pipes](pics/Pipes.jpeg)
 
 2. Join the 5ft section with the 2x1ft sections using the 90 degree coupler
 
@@ -98,19 +98,19 @@ I suggest using 100 LED/meter or 160 LED/meter strips
 
 7. use superglue to connect the shim to the main plastic
    
-![pipes](pics/connect_shim.HEIC)
+![pipes](pics/connect_shim.jpeg)
 
 8. Drill a small pilot hole in the pole, then use a screw to attache the esp8266 to the pole
    
-![pipes](pics/screwpole.HEIC)
+![pipes](pics/screwpole.jpeg)
 
 This is how the stackup should look
    
-![pipes](pics/final_assembly.HEIC)
+![pipes](pics/final_assembly.jpeg)
 
 CAD model for reference:
 
-![Stackup](pics/IMG_0200.HEIC)
+![Stackup](pics/IMG_0200.jpeg)
 
 9. Install WLED on the esp8266
    a. use the following weblink to install https://install.wled.me/
