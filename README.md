@@ -86,7 +86,7 @@ I suggest using 100 LED/meter or 160 LED/meter strips
    b. plug-lamp v1.stl  Qty: 3
    c. Wemos_Bottom.stl
    d. wemos_top.stl
-  ![pipes](pics/print_files.HEIC)
+  ![pipes](pics/print_files.jpeg)
 
 4. Spray paint the joined pipe section
 
